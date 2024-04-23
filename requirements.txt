@@ -55,7 +55,7 @@ platformdirs==4.2.0
 preshed==3.0.9
 prompt-toolkit==3.0.43
 psutil==5.9.8
-pt-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.7.0/pt_core_news_sm-3.7.0-py3-none-any.whl#sha256=a3a8eed42c600af17c70ed3c8720ffe2879b5353055e66fe0c998306329052fd
+#pt-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.7.0/pt_core_news_sm-3.7.0-py3-none-any.whl#sha256=a3a8eed42c600af17c70ed3c8720ffe2879b5353055e66fe0c998306329052fd
 ptyprocess==0.7.0
 pure-eval==0.2.2
 pydantic==2.6.4

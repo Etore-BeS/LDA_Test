@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "topic-modeling-paper"
+version = "0.1.0"
+description = ""
+authors = ["Etore-BeS <etorebraga@usp.br>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.nlp.dependencies]
+spacy = "^3.7.4"
+gensim = "^4.3.2"
+nltk = "^3.8.1"
+pandas = "^2.2.2"
+matplotlib = "^3.8.4"
+
+
+[tool.poetry.group.lda.dependencies]
+pyldavis = "^3.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
